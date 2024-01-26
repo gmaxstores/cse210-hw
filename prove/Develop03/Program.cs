@@ -31,7 +31,6 @@ class Program
             Console.Clear();
             Console.WriteLine(reference.GetDisplayText());
             Console.WriteLine(scripture.GetDisplayTextt());
-            //Console.Write("Press Enter key to continue or type quit to exit");
             string userInput;
             bool complete;
             complete = scripture.IsCompletelyHidden();
@@ -55,8 +54,8 @@ class Program
                 {
                     int numberToHide = random.Next(scripture.Getters().Count);
                     scripture.HideRandomWords(numberToHide);
-                    string farm = scripture.GetDisplayTextt();
-                    Console.WriteLine(farm);
+                    string generatedString = scripture.GetDisplayTextt();
+                    Console.WriteLine(generatedString);
                 }
             }
         }
@@ -104,8 +103,8 @@ class Program
                 {
                     int numberToHide = random.Next(scripture.Getters().Count);
                     scripture.HideRandomWords(numberToHide);
-                    string farm = scripture.GetDisplayTextt();
-                    Console.WriteLine(farm);
+                    string generatedString = scripture.GetDisplayTextt();
+                    Console.WriteLine(generatedString);
                 }
             }
         }
