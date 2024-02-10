@@ -1,0 +1,3 @@
+5
+NegativeGoal:[],snore,at night,5
+SimpleGoal:[x],ram,baby,5,true
