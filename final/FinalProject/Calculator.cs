@@ -14,12 +14,20 @@ public abstract class Calculator
     }
 
 
-    public abstract double Calculate();
+    public abstract void Calculate();
     public abstract string GradingMsg();
     public abstract string GetDetailsString();
     public abstract string GetRepresentationString();
     public void ShowSpinner()
     {
         
+    }
+    public string GetName()
+    {
+        return _userName;
+    }
+    public string GetDesc()
+    {
+        return _description;
     }
 }
