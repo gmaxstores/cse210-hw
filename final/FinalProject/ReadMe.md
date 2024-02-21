@@ -1,0 +1,3 @@
+The Day to Day Program is a program that allows users to perform some basic activities. The program also allows room for future development. It is pretty easy to use. Just follow the prompts.
+The program accomplishes the following: Calculates and stores the BMI and OHI scores of users, tracks and saves users notes, appointments, monthly expenses and menstrual cycles for females.
+Note that The base version does not have the functionality of loading the created expenses. However, this functionality can always be added in future editions.
