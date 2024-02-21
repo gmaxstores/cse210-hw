@@ -15,6 +15,11 @@ public class NoteTracker : Tracker
 
     public override string ListDetails()
     {
-        return "";
+        return $"Hello {GetName()},\n{_title}:\n{_description}";
+    }
+
+    public override string GetRepresentationString()
+    {
+        return $"NoteTracker:{GetName()},{_title},{_description}";
     }
 }

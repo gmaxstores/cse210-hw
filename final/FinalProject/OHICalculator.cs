@@ -19,7 +19,7 @@ public class OHICalculator : Calculator
     private DateTime _timeee;
     private double _ohiScore;
 
-    public OHICalculator(string name, string description, int llOnePlaque, int llSixPlaque, int lrSixPlaque, int ulSixPlaque, int urOnePlaque, int urSixPlaque, int llOneCalc, int llSixCalc, int lrSixCalc, int ulSixCalc, int urOneCalc, int urSixCalc) : base(name, description)
+    public OHICalculator(string name, int llOnePlaque, int llSixPlaque, int lrSixPlaque, int ulSixPlaque, int urOnePlaque, int urSixPlaque, int llOneCalc, int llSixCalc, int lrSixCalc, int ulSixCalc, int urOneCalc, int urSixCalc) : base(name)
     {
         _urSixPlaque = urSixPlaque;
         _urOnePlaque = urOnePlaque;

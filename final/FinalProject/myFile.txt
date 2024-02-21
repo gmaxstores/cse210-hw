@@ -1,2 +1,4 @@
-BMI*Maxwell,5,55,2/20/2024 2:48:36 AM,2.2
-OHI*gloria,1,2,1,2,1,2,1,2,1,2,1,2,2/20/2024 2:48:49 AM,2
+AppointmentTracker:Joe,second,meet a friend,02/01/2024
+PeriodTracker:Gloria,30,02/03/2024,05/03/2024
+ExpensesTracker:Mike,20,march,3,17
+NoteTracker:max,example,i love Jesus

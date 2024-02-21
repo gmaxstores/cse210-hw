@@ -12,4 +12,10 @@ public abstract class Tracker
     }
 
     public abstract string ListDetails();
+    public abstract string GetRepresentationString();
+
+    public string GetName()
+    {
+        return _userName;
+    }
 }

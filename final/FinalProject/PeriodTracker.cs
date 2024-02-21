@@ -17,11 +17,12 @@ public class PeriodTracker : Tracker
 
     public override string ListDetails()
     {
-        return "";
+        return $"Hello {GetName()} - Age: {_age}\nYour cycle started on the {_startDate} and ended on the {_endDate}";
     }
 
-    public void CorrelateCycles()
-    {
 
+    public override string GetRepresentationString()
+    {
+        return $"PeriodTracker:{GetName()},{_age},{_startDate},{_endDate}";
     }
 }

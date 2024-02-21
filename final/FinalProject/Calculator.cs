@@ -5,12 +5,10 @@ using System.Collections.Generic;
 public abstract class Calculator
 {
     private string _userName;
-    private string _description;
 
-    public Calculator(string name, string description)
+    public Calculator(string name)
     {
         _userName = name;
-        _description = description;
     }
 
 
@@ -25,9 +23,5 @@ public abstract class Calculator
     public string GetName()
     {
         return _userName;
-    }
-    public string GetDesc()
-    {
-        return _description;
     }
 }

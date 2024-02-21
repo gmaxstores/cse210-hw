@@ -9,7 +9,7 @@ public class BMICalculator : Calculator
     private DateTime _time;
     private double _bmiScore;
 
-    public BMICalculator(string name, string description, double height, double weight) : base(name, description)
+    public BMICalculator(string name, double height, double weight) : base(name)
     {
         _height = height;
         _weight = weight;
