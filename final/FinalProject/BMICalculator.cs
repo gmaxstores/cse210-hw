@@ -18,7 +18,7 @@ public class BMICalculator : Calculator
     public override void Calculate()
     {
         _time = DateTime.Now;
-
+        ShowSpinner();
         _bmiScore = _weight / (_height * _height);
     }
 

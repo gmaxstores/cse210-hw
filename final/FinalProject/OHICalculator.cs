@@ -39,6 +39,7 @@ public class OHICalculator : Calculator
     public override void Calculate()
     {
         _timeee = DateTime.Now;
+        ShowSpinner();
         double plaqueScore = (_llOnePlaque+_llSixPlaque+_lrSixPlaque+_ulSixPlaque+_urOnePlaque+_urSixPlaque)/6;
         double calculusScore = (_llOneCalc+_llSixCalc+_lrSixCalc+_ulSixCalc+_urOneCalc+_urSixCalc)/6;
         _ohiScore = plaqueScore + calculusScore;
